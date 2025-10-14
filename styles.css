@@ -1,0 +1,154 @@
+:root{
+    --midnight-velvet:#272343;
+    --white: #ffffff;
+    --zappy-zebra: #f0f2f3;
+    --deep-current: #007580;
+    --background-color: #fff;
+    --faded-white-color: rgba(255,255,255,0.7);
+    --max-width: 1014px;
+
+    /* --max-width: 1320px; */
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+.header__support--container{
+     background-color: var(--midnight-velvet);
+    color: var(--faded-white-color);
+    font-size: 13px;
+    font-weight: 400;
+    height: 45px;
+    
+
+}
+
+.header__support{
+    max-width: var(--max-width); 
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     height: 100%;
+    
+}
+
+.header__suport__menu{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.header__suport__menu li{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.cto{
+    background:var(--zappy-zebra);
+    /* width: 2000px; */
+    height: 84px;
+    padding: 20px 300px;
+    display: flex; 
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+
+/* .cto div {
+    border: 2px solid blue;
+} */
+
+/* .cto---container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    max-width: var(--max-width); 
+    /* width:1000px; */
+    /* border: 2px solid red; */ */
+/* } */
+
+.cto---modified-direction{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    gap: 8px;
+}
+
+.logo-company-name{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 120%;
+    color: var(--midnight-velvet);
+}
+
+.cto__search-bar{
+    background-color:var(--white);
+    width: 413px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+
+.cto__search-bar input{
+       width:150px;
+       height: 19px;
+       top: 33px;
+       left: 736.5px;
+       border: none;
+       color: var(--faded-white-color);
+}
+
+.cto__activities{
+    width:232px;
+    height: 44px;
+    display: flex;
+    gap: 12px;
+    /* border: 2px solid red; */
+}
+
+.cto---modified{
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 11px 16px;
+}
+
+.cto--add-to-cart{
+    width:120px ;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cto-heart{
+    width:44px ;
+    height: 44px;
+}
+
+.ct0-profile{
+    width: 44px;
+    height: 44px;
+}
